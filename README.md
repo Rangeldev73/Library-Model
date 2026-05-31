@@ -109,10 +109,10 @@ application directly from your terminal:
 
 ```bash
 # Compile all source files
-javac *.java
+javac src/br/com/library/models/*.java src/br/com/library/services/*.java src/br/com/library/app/*.java
 
 # Run the application
-java Main
+java -cp src br.com.library.app.Main
 ```
 
 ---
@@ -224,10 +224,10 @@ execute a aplicação diretamente pelo terminal:
 
 ```bash
 # Compilar todos os arquivos fonte
-javac *.java
+javac src/br/com/library/models/*.java src/br/com/library/services/*.java src/br/com/library/app/*.java
 
 # Executar a aplicação
-java Main
+java -cp src br.com.library.app.Main
 ```
 
 ---
